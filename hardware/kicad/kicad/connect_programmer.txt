@@ -1,0 +1,24 @@
+13:07:30 : UR connection mode is defined with the HWrst reset mode
+13:07:30 : ST-LINK SN  : B55B5A1A000000008C5BF001
+13:07:30 : ST-LINK FW  : V2J46S7
+13:07:30 : Board       : --
+13:07:30 : Voltage     : 3,25V
+13:07:30 : SWD freq    : 4000 KHz
+13:07:30 : Connect mode: Normal
+13:07:30 : Reset mode  : Software reset
+13:07:30 : Device ID   : 0x461
+13:07:30 : Revision ID : Rev 2.0
+13:07:30 : Debug in Low Power mode enabled.
+13:07:30 : UPLOADING OPTION BYTES DATA ...
+13:07:30 :   Bank          : 0x00
+13:07:30 :   Address       : 0x40022020
+13:07:30 :   Size          : 20 Bytes
+13:07:30 :   Bank          : 0x01
+13:07:30 :   Address       : 0x40022044
+13:07:30 :   Size          : 16 Bytes
+13:07:30 : UPLOADING ...
+13:07:30 :   Size          : 1024 Bytes
+13:07:30 :   Address       : 0x8000000
+13:07:30 : Read progress:
+13:07:30 : Data read successfully
+13:07:30 : Time elapsed during the read operation is: 00:00:00.005

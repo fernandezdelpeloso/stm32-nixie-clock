@@ -1,0 +1,54 @@
+# --- General ---
+*.swp
+*.swo
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# --- STM32 / Build artifacts ---
+/Debug/
+/Release/
+/build/
+/out/
+/bin/
+/obj/
+/*.elf
+/*.hex
+/*.bin
+/*.map
+/*.lst
+*.o
+*.d
+*.dep
+*.log
+
+# CubeMX/IDE misc
+*.launch
+*.settings/
+*.ipch/
+*.ioc-backup*
+
+# --- KiCad (keep sources, ignore generated/cache) ---
+*.bak
+*.kicad_prl
+*.kicad_2d
+fp-info-cache
+sym-lib-table-bak
+fp-lib-table-bak
+*-backups/
+
+# Gerbers & plots (OPTIONAL to ignore; include only when ready for fab)
+*.gbr
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gto
+*.gbo
+*.drl
+*.nc
+*.zip
+
+# 3D viewer caches
+*.wrl~

@@ -1,0 +1,8 @@
+13:13:46 : MASS ERASE ... 
+13:13:46 : Mass erase successfully achieved
+13:13:46 : UPLOADING ...
+13:13:46 :   Size          : 1024 Bytes
+13:13:46 :   Address       : 0x8000000
+13:13:46 : Read progress:
+13:13:46 : Data read successfully
+13:13:46 : Time elapsed during the read operation is: 00:00:00.006

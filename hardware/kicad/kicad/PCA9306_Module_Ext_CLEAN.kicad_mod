@@ -1,0 +1,36 @@
+
+(module PCA9306_Module_Ext (layer F.Cu) (tedit 60B1D5A9)
+  (descr "Custom PCA9306 footprint with pad extensions and via points")
+  (tags "level shifter PCA9306 SOT-8")
+  (attr smd)
+
+  (fp_text reference REF** (at 0 -3.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PCA9306_Module_Ext (at 0 3.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_line (start -2.5 -2.3) (end 2.5 -2.3) (layer F.SilkS) (width 0.12))
+  (fp_line (start 2.5 -2.3) (end 2.5 2.3) (layer F.SilkS) (width 0.12))
+  (fp_line (start 2.5 2.3) (end -2.5 2.3) (layer F.SilkS) (width 0.12))
+  (fp_line (start -2.5 2.3) (end -2.5 -2.3) (layer F.SilkS) (width 0.12))
+
+  (pad 1 smd rect (at -2.9 -1.905) (size 1.8 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -2.9 -0.635) (size 0.8 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at -2.9 0.635) (size 0.8 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at -2.9 1.905) (size 0.8 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 5 smd rect (at 2.9 1.905) (size 0.8 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 6 smd rect (at 2.9 0.635) (size 0.8 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 7 smd rect (at 2.9 -0.635) (size 1.8 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 8 smd rect (at 2.9 -1.905) (size 0.8 0.5) (layers F.Cu F.Paste F.Mask))
+
+  (pad 9 thru_hole circle (at -4.0 -1.905) (size 0.6 0.6) (drill 0.3)
+       (layers *.Cu *.Mask) (zone_connect 2))
+
+  (pad 10 thru_hole circle (at 4.0 -0.635) (size 0.6 0.6) (drill 0.3)
+       (layers *.Cu *.Mask) (zone_connect 2))
+
+  (pad 11 thru_hole circle (at 4.0 -2.5) (size 0.6 0.6) (drill 0.3)
+       (layers *.Cu *.Mask) (zone_connect 2))
+)
