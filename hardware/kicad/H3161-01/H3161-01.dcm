@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP H3161-01
+D PC Board Socket for 1.00mm Pin, retention feature, gold clip + tin shell
+K
+F https://cdn.harwin.com/pdfs/H3161.pdf
+$ENDCMP
+#
+#End Doc Library

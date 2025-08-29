@@ -2055,7 +2055,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "50345466-4d2c-47f3-b01a-cb213ff2a92c")
 		(property "Reference" "#PWR027"
 			(at 153.67 76.2 0)
@@ -2067,7 +2066,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 160.655 76.1999 90)
+			(at 156.21 78.105 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +2121,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a48a1e0-aa65-4dfb-a5e3-7e2872ab465a")
 		(property "Reference" "#PWR028"
 			(at 109.22 87.63 0)
@@ -2134,7 +2132,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 109.22 78.74 0)
+			(at 109.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2255,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c37084c-4c95-4c15-9b07-d1b8e33b2acf")
 		(property "Reference" "#PWR024"
 			(at 97.79 97.79 0)
@@ -2269,7 +2266,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 90.17 97.7899 90)
+			(at 95.885 95.885 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2390,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7d4638a-c6ba-48f7-953d-c73796d0e736")
 		(property "Reference" "#PWR025"
 			(at 123.19 82.55 0)
@@ -2405,7 +2401,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 81.28 0)
+			(at 123.19 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +2466,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 157.48 99.06 90)
+			(at 158.75 98.425 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2532,7 @@
 			)
 		)
 		(property "Value" "100P"
-			(at 130.81 82.55 90)
+			(at 130.81 81.915 90)
 			(effects
 				(font
 					(size 1.27 1.27)
